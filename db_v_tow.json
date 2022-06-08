@@ -1,0 +1,98 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "name": "FamilyHouse",
+      "address": "X street address",
+      "user": {
+        "id": 1,
+        "userName": "username",
+        "password": "password"
+      },
+      "floors": [
+        {
+          "id": 1,
+          "number": 1,
+          "name": "floor1"
+        }
+      ],
+      "users": [
+        {
+          "id": 1,
+          "userName": "mohssine",
+          "password": "12345678"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "mohssine",
+      "password": "12345678"
+    }
+  ],
+  "floors": [
+    {
+      "id": 1,
+      "number": 1,
+      "name": "floor1",
+      "rooms": [
+        {
+          "id": 1,
+          "number": 1,
+          "name": "Bedroom"
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "number": 1,
+      "name": "Bedroom",
+      "devices": [
+        {
+          "id": 1,
+          "name": "Lamp",
+          "active": true,
+          "status": "On"
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "name": "Lamp",
+      "active": false,
+      "status": "Of",
+      "room": "Bedroom",
+      "floor": "floor1"
+    },
+    {
+      "id": 2,
+      "name": "Tv",
+      "active": false,
+      "status": "Of",
+      "room": "Living room",
+      "floor": "floor2"
+    },
+    {
+      "id": 3,
+      "name": "tv",
+      "active": false,
+      "status": "Of",
+      "room": "Room1",
+      "floor": "floor1"
+    },
+    {
+      "id": 4,
+      "name": "Camera",
+      "active": false,
+      "status": "Of",
+      "room": "House Entry",
+      "floor": "floor0"
+    }
+  ]
+}
